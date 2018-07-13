@@ -1,0 +1,6 @@
+## Criando o namespace
+kubectl create -f 10-namespace.yaml
+## Criando o deployment
+kubectl create -f 20-service.yaml
+## Criando o deployment
+kubectl create -f 30-deployment.yaml

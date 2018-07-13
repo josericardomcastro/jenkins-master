@@ -1,0 +1,11 @@
+# delete all pods
+kubectl delete --all pods --namespace=jenkins-project
+
+# deete all deployments
+kubectl delete --all deployments --namespace=jenkins-project
+
+# delete all services
+kubectl delete --all services --namespace=jenkins-project
+
+# Delete dev
+kubectl delete namespaces jenkins-project

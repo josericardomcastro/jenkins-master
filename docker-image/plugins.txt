@@ -1,0 +1,3 @@
+kubernetes
+blue-ocean
+git-plugin
