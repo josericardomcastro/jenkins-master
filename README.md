@@ -5,7 +5,8 @@ Projeto de instalação do [jenkins](https://jenkins.io/) em containers utilizan
 # Imagem docker customizada
 
 ```
-docker build . -t josericardomcastro/jenkins-master:1.0
+cd docker-image
+docker build . -t <repository>/jenkins-master:1.0
 ```
 
 Testar a Imagem
@@ -14,7 +15,7 @@ Testar a Imagem
 docker run --name docker-jenkins \
     -p 8080:8080 \
     -v jenkins_home:/var/jenkins_home \
-    josericardomcastro/jenkins-master:1.0
+    <repository>/jenkins-master:1.0
 ```
 
 
